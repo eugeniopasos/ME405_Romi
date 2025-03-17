@@ -6,7 +6,11 @@ For the final project, two tasks were used to accomplish the course. A sensor ta
 ![image](https://github.com/user-attachments/assets/254409aa-eb37-448f-8fd5-a06ac079c9aa)
 ## Shared Variables Table
 ![image](https://github.com/user-attachments/assets/7ba4bc43-2b9c-462e-a30d-fc0775dd18af)
-## Code Description
+## Code Descriptions
+### Sensor Task Description
+The sensor task first begins by initializing the encoder, line sensor, and IMU objects. First, the line sensors are measured via an ADC. This returns an analog value of the sensor voltage, corresponding to the brightness of the line (0 = White, 4095 = Black). Then the centroid of this distribution is found by normalizing each ADC values (dividing by 4095), and multiplying the resulting value by its position in the array and summing each element of the sensor array. With a seven sensor array, -3 corresponds to the left and +3 corresponds to the right. The resulting sum indicates where the line is most likely to be. This number is stored in the centroid shared variable. Then the L_Encoder position, R_Encoder position are collected from the encoders and stored as a shared variable. Finally, the heading is extracted from the IMU via I2C.
+### Motor Task Description
+
 ## Motor Task FSM
 ![image](https://github.com/user-attachments/assets/4893dd7f-52cb-4422-808b-9b6b2304b2e8)
 ## Wiring Diagram

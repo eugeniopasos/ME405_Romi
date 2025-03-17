@@ -7,8 +7,9 @@ For the final project, two tasks were used to accomplish the course. A sensor ta
 ## Shared Variables Table
 
 ![image](https://github.com/user-attachments/assets/4893dd7f-52cb-4422-808b-9b6b2304b2e8)
-![image](https://github.com/user-attachments/assets/0b2bef3c-e2b9-4b02-a37f-1ee777d5d5f2)
-![image](https://github.com/user-attachments/assets/2597ae4a-154e-41ea-a4c3-dc9c2459acb1)
+## Wiring Diagram
+![image](https://github.com/user-attachments/assets/09459eef-f5c5-4136-8a6a-c664eb1e672c)
+
 
 ## Robot Images
 ![image1](https://github.com/user-attachments/assets/4c83a1d7-53ff-4788-8b39-0844754e152d)

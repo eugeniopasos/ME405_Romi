@@ -11,8 +11,8 @@ For the final project, two tasks were used to accomplish the course. A sensor ta
 ![image](https://github.com/user-attachments/assets/4893dd7f-52cb-4422-808b-9b6b2304b2e8)
 ## Wiring Diagram
 ![image](https://github.com/user-attachments/assets/09459eef-f5c5-4136-8a6a-c664eb1e672c)
-
-
+## Parts List
+![image](https://github.com/user-attachments/assets/b60b1ccc-fc10-49ac-b510-24000380d65e)
 ## Romi Images
 ![image1](https://github.com/user-attachments/assets/4c83a1d7-53ff-4788-8b39-0844754e152d)
 ![image0](https://github.com/user-attachments/assets/4b948b96-745c-4155-9ff5-fa4173e7f579)

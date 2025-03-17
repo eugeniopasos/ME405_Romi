@@ -173,14 +173,14 @@ def drive_motor(shares):
         elif mode.get() == ALIGN:
             # Use heading feedback to align to direction
             head = heading.get()
-            if abs(direction - head) < 2:
+            if abs(direction - head) > 2:
                 L_Motor.set_effort(5*(direction - head))
                 R_Motor.set_effort(5*(head - direction))
             else:
                 L_Motor.set_effort(0)
                 R_Motor.set_effort(0)
                 mode.put(LINE)
-                yield 0
+            yield 0
         else:
             motor_stop()
         
